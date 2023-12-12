@@ -21,4 +21,7 @@ La mesure d'évaluation de ce défi est la perte de journal.
 
 ## Indication
 Le notebook soumis contient une mise du script permettant de générer le fichier .csv des probilités de prediction. 
-L'idée est d'apporter une touche innovente permettant de recuperer automatiquement le fichier .pth optimal permettant d'obtenir les meilleures probabilités plutôt que l'approche précédantes qui visait généré fichier par fichier et à soumèttre ensuite le fichier .csv resultant à la plateforme Zindi pour l'obtention du score. Nous vous indiquerons egalement les mises à jour à venir.  
+L'idée est d'apporter une touche innovente permettant de recuperer automatiquement le fichier .pth optimal permettant d'obtenir les meilleures probabilités plutôt que l'approche précédantes qui visait généré fichier par fichier et à soumèttre ensuite le fichier .csv resultant à la plateforme Zindi pour l'obtention du score. Nous vous indiquerons egalement les mises à jour à venir. 
+
+## Approche utilisée
+L'approche utilisée pour la realisation de ce projet est l'apprentissage par transfert de pytorch qui consiste au choix d'un modèle pré-entrainé (ResNet50 dans notre cas) et à l'adapter à notre use case.
